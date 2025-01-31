@@ -42,3 +42,4 @@ This Streamlit application combines Google Image Search, CLIP model, and Gemini 
 
 See `requirements.txt` for a full list of dependencies.
 
+Advance Image Search
