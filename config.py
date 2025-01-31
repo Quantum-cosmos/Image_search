@@ -4,9 +4,9 @@ import os
 load_dotenv()
 
 # API Keys
-GOOGLE_SEARCH_KEY = "AIzaSyCIjeVCQVg9iPAYEYLYEIvewB_nXg6nnwU"
-GOOGLE_CSE_ID = "93e00b09bfd6e4256"
-GEMINI_API_KEY = "AIzaSyAulFzIkm9yvMawZBV5-HFoCEEu2BRzn7A"
+GOOGLE_SEARCH_KEY = os.getenv('GOOGLE_SEARCH_KEY')
+GOOGLE_CSE_ID = os.getenv('GOOGLE_CSE_ID')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 # Model Configuration
 CLIP_MODEL_NAME = "openai/clip-vit-base-patch32"
